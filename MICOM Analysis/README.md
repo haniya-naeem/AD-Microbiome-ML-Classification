@@ -1,1 +1,3 @@
+Microbiome Machine Learning Analysis with MICOM Features
 
+This project utilizes microbiome profiles to classify various patients who have Alzheimer's disease, mild cognitive impairment, and healthy patients. The objective is to compare classification models trained solely on Microbial relative abundance (RA) information only vs. Microbial relative abundance combined with Fecal Metabolic metabolites developed from mucous membranes (MICOM). The study employs an extensive workflow that includes: Data pre-processing, Feature combination (RA + MICOM), Model training (Support Vector Machines [SVM] & Random Forest) Hyper-parameter adjustment, Performance metrics (Precision, Recall, and F1 Score).
