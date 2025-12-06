@@ -2,6 +2,7 @@
 This project proposes a computational, data-driven diagnostic framework for Alzheimer’s disease (AD) by integrating microbiome-derived genome-scale metabolic models (GEMs) and machine learning to accurately predict disease stages from gut microbial activity.
 
 Cognitive State Classification Based on Microbiome Data
+
 This project utilizes two different types of data, referred to as feature sets, to predict cognitive conditions such as Alzheimer's Disease(AD), Mild Cognitive Impairment (MCI), and Healthy through machine learning methods.
 
 - The first feature set consists of Relative Abundance (RA), which includes microbial PCA (principal components analysis) components and top genus abundances.
