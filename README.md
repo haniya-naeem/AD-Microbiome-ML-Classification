@@ -1,4 +1,7 @@
 # AD-Microbiome-ML-Classification
+
+Haniya Naeem, Maryam Mayeli, Paula Marie Honrade, Qummar Mahmood, Niki Mehri 
+
 This project proposes a computational, data-driven diagnostic framework for Alzheimer’s disease (AD) by integrating microbiome-derived genome-scale metabolic models (GEMs) and machine learning to accurately predict disease stages from gut microbial activity.
 
 Cognitive State Classification Based on Microbiome Data
