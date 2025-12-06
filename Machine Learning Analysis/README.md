@@ -1,13 +1,22 @@
-Cognitive State Classification Based on Microbiome Data
+Machine Learning Analysis: Gut Microbiome Classification
 
-This project utilizes two different types of data, referred to as feature sets, to predict cognitive conditions such as Alzheimer's Disease(AD), Mild Cognitive Impairment (MCI), and Healthy through machine learning methods.
+This notebook exhibits the machine-learning application of determining the patients’ gut microbiome samples classified into three different clinical states: Healthy State, Mild Cognitive Impairment (MCI), and Alzheimer’s Disease (AD). The classification is based on taxonomic features (relative abundances) and the metabolic features predict by MICOM.
 
-- The first feature set consists of Relative Abundance (RA), which includes microbial PCA (principal components analysis) components and top genus abundances.
+Project Structure: 
+- ML Visualizations.ipynb – The purpose of the notebook is to provide visual representations of how well the models performed and how to explore individual features.
+- ML_Figures.ipynb – This notebook contains the code necessary to create various types of visual summaries (confusion matrices, metrics tables, etc.).
+- Machine_Learning_Analysis.ipynb – This notebook is the primary notebook for the project; it includes tasks such as data preprocessing and merging features, training the model, and an analysis of the model.
 
-- The second feature set combines RA with MICOM (Microbiome in Experiments) generated reaction flux and community growth rate estimates resulting in RA + MICOM features.
 
-The analytical pipeline includes: data loading, data cleaning, data merging, data scaling, train/test splitting, cross-validation, hyperparameter tuning, and classification using Support Vector Machine (SVM) and Random Forest (RF).
+Features and Dataset
+- Relative Abundance Features: The relative abundance is actually PCA Component Scores as well as Genera of Microbial Species that are found in each patient sample.
+- MICOM Features: The predicted metabolic flux and predicted growth rate of the microbial community.
+- The merged dataset contains both Relative Abundances and MICOM features to be used to train the model.
 
-- The results obtained: The RA only feature set produced moderate test accuracy (approximately 36% to 61%), indicative of the limited predictive power that exists when using only abundance data.
 
-In addition, using the RA + MICOM features increased the predictive performance and achieved 75% test accuracy using the tuned SVM model.  This strongly supports the idea that better predictions can be made by combining microbial composition and metabolic activity. 
+Machine Learning Models
+- Model A: Support Vector Machine (SVM) using Relative Abundance Only
+- Model B: Random Forest using Relative Abundance Only
+- Model C: SVM using Relative Abundance + MICOM
+
+For all models, the training/testing split was completed, the models/rfs were evaluated using Cross Validation, and all were analyzed using precision, recall, and F1-Scores as well as confusion matrices to aid in understanding the results.
