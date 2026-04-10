@@ -1,6 +1,8 @@
 # AD-Microbiome-ML-Classification
 
-Haniya Naeem, Maryam Mayeli, Paula Marie Honrade, Qummar Mahmood, Niki Mehri 
+Authors: Haniya Naeem, Maryam Mayeli, Paula Marie Honrade, Qummar Mahmood, Niki Mehri 
+
+**[Final Project Report (PDF)](Project_Report_ENGG680_Group_10.pdf)**
 
 This project proposes a computational, data-driven diagnostic framework for Alzheimer’s disease (AD) by integrating microbiome-derived genome-scale metabolic models (GEMs) and machine learning to accurately predict disease stages from gut microbial activity.
 
@@ -14,6 +16,8 @@ This project utilizes two different types of data, referred to as feature sets, 
 
 The analytical pipeline includes: data loading, data cleaning, data merging, data scaling, train/test splitting, cross-validation, hyperparameter tuning, and classification using Support Vector Machine (SVM) and Random Forest (RF).
 
-- The results obtained: The RA only feature set produced moderate test accuracy (approximately 36% to 61%), indicative of the limited predictive power that exists when using only abundance data.
+- The results obtained: The RA only feature set produced moderate test accuracy (approximately 32% to 36%), indicative of the limited predictive power that exists when using only abundance data.
 
-In addition, using the RA + MICOM features increased the predictive performance and achieved 75% test accuracy using the tuned SVM model.  This strongly supports the idea that better predictions can be made by combining microbial composition and metabolic activity. 
+In addition, using the RA + MICOM features increased the predictive performance and achieved 62% test accuracy using the Random Forest model. This strongly supports the idea that better predictions can be made by combining microbial composition and metabolic activity. 
+
+An individual extension of this project, with hyperparameter tuning and a roadmap for further improvements, is available at: https://github.com/haniya-naeem/AD-Microbiome-ML-Extended
