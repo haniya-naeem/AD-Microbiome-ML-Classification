@@ -2,7 +2,7 @@
 
 Authors: Haniya Naeem, Maryam Mayeli, Paula Marie Honrade, Qummar Mahmood, Niki Mehri 
 
-**[Final Project Report (PDF)](Project_Report_ENGG680_Group_10.pdf)**
+**[Final Project Report (PDF)](https://github.com/haniya-naeem/AD-Microbiome-ML-Classification/blob/main/Project%20Report_ENGG680_Group%2010.pdf)
 
 This project proposes a computational, data-driven diagnostic framework for Alzheimer’s disease (AD) by integrating microbiome-derived genome-scale metabolic models (GEMs) and machine learning to accurately predict disease stages from gut microbial activity.
 
